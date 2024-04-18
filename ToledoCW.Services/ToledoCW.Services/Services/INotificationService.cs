@@ -1,4 +1,4 @@
-using ToledoCW.Services.Model.Notifications;
+using ToledoCW.Services.Core.Notifications;
 
 namespace ToledoCW.Services.Services;
 

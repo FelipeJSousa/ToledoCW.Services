@@ -2,9 +2,9 @@ using System.Linq.Expressions;
 using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Query;
+using ToledoCW.Services.Core.Notifications;
 using ToledoCW.Services.Infraestructure;
 using ToledoCW.Services.Infraestructure.Repositorios;
-using ToledoCW.Services.Model.Notifications;
 
 namespace ToledoCW.Services.Services;
 

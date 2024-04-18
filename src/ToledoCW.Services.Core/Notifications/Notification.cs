@@ -1,4 +1,4 @@
-namespace ToledoCW.Services.Model.Notifications;
+namespace ToledoCW.Services.Core.Notifications;
 
 public class Notification
 {

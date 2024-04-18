@@ -16,6 +16,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\..\src\ToledoCW.Services.Core\ToledoCW.Services.Core.csproj" />
       <ProjectReference Include="..\ToledoCW.Services.Infraestructure\ToledoCW.Services.Infraestructure.csproj" />
     </ItemGroup>
 

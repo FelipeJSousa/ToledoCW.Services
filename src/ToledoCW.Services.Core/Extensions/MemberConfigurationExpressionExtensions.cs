@@ -2,7 +2,7 @@ using System.Reflection;
 using AutoMapper;
 using AutoMapper.Internal;
 
-namespace ToledoCW.Services.Extensions;
+namespace ToledoCW.Services.Core.Extensions;
 
 public static class MemberConfigurationExpressionExtensions
 {

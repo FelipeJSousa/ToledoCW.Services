@@ -1,7 +1,7 @@
 using AutoMapper;
 using AutoMapper.Internal;
+using ToledoCW.Services.Core.Extensions;
 using ToledoCW.Services.Domain.Entities;
-using ToledoCW.Services.Extensions;
 using ToledoCW.Services.Infraestructure.Entidades;
 using ToledoCW.Services.Model.Request;
 using ToledoCW.Services.Model.Response;

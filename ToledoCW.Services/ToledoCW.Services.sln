@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToledoCW.Services.Domain", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToledoCW.Services.Application", "..\src\ToledoCW.Services.Application\ToledoCW.Services.Application.csproj", "{0CDE6088-28B4-4645-B2F5-9C4ABA333A22}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToledoCW.Services.Core", "..\src\ToledoCW.Services.Core\ToledoCW.Services.Core.csproj", "{0F236B27-EC69-4395-B233-A6D370EF8E9D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{0CDE6088-28B4-4645-B2F5-9C4ABA333A22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CDE6088-28B4-4645-B2F5-9C4ABA333A22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CDE6088-28B4-4645-B2F5-9C4ABA333A22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F236B27-EC69-4395-B233-A6D370EF8E9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F236B27-EC69-4395-B233-A6D370EF8E9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F236B27-EC69-4395-B233-A6D370EF8E9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F236B27-EC69-4395-B233-A6D370EF8E9D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -1,5 +1,6 @@
 using AutoMapper;
 using AutoMapper.Internal;
+using ToledoCW.Services.Domain.Entities;
 using ToledoCW.Services.Extensions;
 using ToledoCW.Services.Infraestructure.Entidades;
 

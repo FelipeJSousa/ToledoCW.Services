@@ -1,5 +1,6 @@
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
+using ToledoCW.Services.Domain.Entities;
 using ToledoCW.Services.Infraestructure;
 using ToledoCW.Services.Infraestructure.Entidades;
 using ToledoCW.Services.Infraestructure.Repositorios;

@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
+using ToledoCW.Services.Domain.Entities;
 using ToledoCW.Services.Infraestructure.Entidades;
 
 namespace ToledoCW.Services.Infraestructure;

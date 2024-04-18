@@ -1,15 +1,11 @@
+using ToledoCW.Services.Application.Interfaces;
 using ToledoCW.Services.Infraestructure.Entidades;
-using ToledoCW.Services.Infraestructure.Repositorios;
 
-namespace ToledoCW.Services.Services;
+namespace ToledoCW.Services.Application.Services;
 
 public class EstabelecimentoService : ServiceBase<Estabelecimento>, IEstabelecimentoService
 {
     public EstabelecimentoService(IServiceProvider serviceProvider) : base(serviceProvider)
     {
     }
-}
-
-public interface IEstabelecimentoService : IService<Estabelecimento>
-{
 }

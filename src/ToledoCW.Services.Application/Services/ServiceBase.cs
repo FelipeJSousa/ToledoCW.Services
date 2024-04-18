@@ -1,12 +1,13 @@
 using System.Linq.Expressions;
 using AutoMapper;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Query;
+using Microsoft.Extensions.DependencyInjection;
+using ToledoCW.Services.Application.Interfaces;
 using ToledoCW.Services.Core.Notifications;
 using ToledoCW.Services.Infraestructure;
 using ToledoCW.Services.Infraestructure.Repositorios;
 
-namespace ToledoCW.Services.Services;
+namespace ToledoCW.Services.Application.Services;
 
 public abstract class ServiceBase : IService
 {
@@ -57,7 +58,7 @@ public abstract class ServiceBase : IService
     #endregion
 }
 
-public abstract class ServiceBase<TEntity> : ServiceBase, IService<TEntity> where TEntity : class
+public abstract class ServiceBase<TEntity> : ServiceBase, Interfaces.IService<TEntity> where TEntity : class
 {
     private readonly IRepositorioBase<TEntity> _RepoBase;
 

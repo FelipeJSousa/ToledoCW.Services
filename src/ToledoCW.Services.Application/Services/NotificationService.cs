@@ -1,8 +1,8 @@
 using ToledoCW.Services.Core.Notifications;
 
-namespace ToledoCW.Services.Services;
+namespace ToledoCW.Services.Application.Services;
 
-public sealed class NotificationService : INotificationService
+public sealed class NotificationService : Application.Interfaces.INotificationService
 {
     private List<Notification> _Notifications;
 

@@ -1,10 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-using ToledoCW.Services.Infraestructure;
-using ToledoCW.Services.Infraestructure.Entidades;
-using ToledoCW.Services.Infraestructure.Repositorios;
-using ToledoCW.Services.Model;
-using ToledoCW.Services.Model.Request;
-using ToledoCW.Services.Services;
+using ToledoCW.Services.Application.Interfaces;
 
 namespace ToledoCW.Services.Controllers;
 

@@ -1,7 +1,7 @@
 using System.Linq.Expressions;
 using Microsoft.EntityFrameworkCore.Query;
 
-namespace ToledoCW.Services.Services;
+namespace ToledoCW.Services.Application.Interfaces;
 
 public interface IService
 {

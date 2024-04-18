@@ -1,7 +1,8 @@
 using Microsoft.EntityFrameworkCore;
+using ToledoCW.Services.Application.Interfaces;
+using ToledoCW.Services.Application.Services;
 using ToledoCW.Services.Infraestructure;
 using ToledoCW.Services.Infraestructure.Repositorios;
-using ToledoCW.Services.Services;
 
 namespace ToledoCW.Services.Configurations;
 

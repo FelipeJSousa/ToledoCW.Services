@@ -1,6 +1,6 @@
 using ToledoCW.Services.Core.Notifications;
 
-namespace ToledoCW.Services.Services;
+namespace ToledoCW.Services.Application.Interfaces;
 
 public interface INotificationService
 {
